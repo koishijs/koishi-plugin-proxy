@@ -1,0 +1,30 @@
+{
+  "name": "koishi-plugin-proxy",
+  "description": "enables you to forward an http request to another HTTP server. Supported protocols: HTTP, HTTPS, HTTP2",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "koishi": {
+    "description": {
+      "zh": "🚀 转发 HTTP 请求到另一个 HTTP 服务器。支持的协议: HTTP, HTTPS, HTTP2",
+      "en": "🚀 enables you to forward an http request to another HTTP server. Supported protocols: HTTP, HTTPS, HTTP2"
+    }
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "proxy"
+  ],
+  "dependencies": {
+    "fast-proxy": "^2.2.0"
+  },
+  "peerDependencies": {
+    "koishi": "4.12.0"
+  }
+}
